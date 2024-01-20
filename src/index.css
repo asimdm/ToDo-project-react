@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #352F44;
 }
 
 main {
@@ -13,7 +14,7 @@ main {
 
 .heading {
   text-align: center;
-  color: #2E8A99;
+  color: #FAF0E6;
   margin-top: 0%;
   padding-top: 40px;
   font-size: 90px;
@@ -40,19 +41,6 @@ main {
   padding: 5px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 10px;
-}
-
-li {
-  border: 1px solid #ddd;
-  margin: 5px;
-  padding: 10px;
-  background: #f9f9f9;
-}
-
 @media (max-width: 600px) {
   li {
     font-size: 14px;
@@ -60,8 +48,7 @@ li {
 }
 
 .homePage{
-  background-color: #0E2954;
-  min-height: 100vh;
+  background-color: #352F44;
 }
 
 .submitButton{
@@ -69,10 +56,10 @@ li {
   width: 200px;
   height: 50px;
   border-radius: 10px;
-  background-color: #84A7A1;
+  background-color: #5C5470;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #0E2954;
+  color: #FAF0E6;
   border: rgb(0, 0, 0);
   border-width: 5px;
   border-style: double;
@@ -82,11 +69,56 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(to bottom, #dfcad6, rgba(214, 231, 239, 0.467));
-  width: 300px;
-  margin: 5px;
+  background-color: #B9B4C7;
+  display: flex;
+  justify-content: space-between;
+  float:left;
+  height: auto;
+  width: auto;
+  margin: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.actionButton{
+  width: 100px;
+  height: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .item{
   text-align: center;
+}
+
+.TodoListItems{
+  background-color: #5C5470;
+}
+
+.buttons{
+  margin-top: 50px;
+  background-color: #2dd3c0;
+  height: auto;
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.filterButton{
+  height: auto;
+  min-height: 40px;
+  width: auto;
+  min-width: 150px;
+  border-radius: 10px;
+  margin:20px;
+  background-color: #352F44;
+  color: #FAF0E6;
+  font-size: 15px;
+}
+
+.filters{
+  color: #add4de;
+  margin: 30px;
+  font-size: 15px;
 }

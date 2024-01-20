@@ -1,19 +1,3 @@
-// const initialState={
-//     list:[],
-//     filter:"all"
-// };
-
-// export default function appReducer(state=initialState, action){
-//     switch(action.type){
-//         case "addTodo":{
-//             return{...state,list:[...state.list,{action.payload}]};
-//         }
-//         case "completed":{
-            
-//         }
-//     }
-// }
-
 const initialState = {
     tasks: [],
   };
